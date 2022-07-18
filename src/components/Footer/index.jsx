@@ -14,45 +14,7 @@ const Footer = () => {
         <FooterContainer>
             <FooterWrap>
                 <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> About us </FooterLinkTitle>
-                                <FooterLink to="/signin"> About us</FooterLink>
-                                <FooterLink to="/signin"> How it works</FooterLink>
-                                <FooterLink to="/signin"> Testimonios</FooterLink>
-                                <FooterLink to="/signin"> Careers</FooterLink>
-                                <FooterLink to="/signin"> Investors</FooterLink>
-                                
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Nuestras Redes </FooterLinkTitle>
-                                <FooterLink to="/signin"> Instagram</FooterLink>
-                                <FooterLink to="/signin"> Facebook</FooterLink>
-                                <FooterLink to="/signin"> Twitter</FooterLink>
-                                <FooterLink to="/signin"> Youtube</FooterLink>
-                                
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> About us </FooterLinkTitle>
-                                <FooterLink to="/signin"> About us</FooterLink>
-                                <FooterLink to="/signin"> How it works</FooterLink>
-                                <FooterLink to="/signin"> Testimonios</FooterLink>
-                                <FooterLink to="/signin"> Careers</FooterLink>
-                                <FooterLink to="/signin"> Investors</FooterLink>
-                               
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> About us </FooterLinkTitle>
-                                <FooterLink to="/signin"> About us</FooterLink>
-                                <FooterLink to="/signin"> How it works</FooterLink>
-                                <FooterLink to="/signin"> Testimonios</FooterLink>
-                                <FooterLink to="/signin"> Careers</FooterLink>
-                                <FooterLink to="/signin"> Investors</FooterLink>
-                                
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
+                    
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>

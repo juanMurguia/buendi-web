@@ -10,7 +10,7 @@ export const Container = styled.div`
     top: 0;
     z-index:0;
     overflow: hidden;
-    background: #111111;
+    background: #08010F;
 `;
 
 export const FormWrap = styled.div`
@@ -18,6 +18,7 @@ export const FormWrap = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 10%;
 
     @media screen and(max-width:400px){
         height: 80%
@@ -50,15 +51,15 @@ export const FormContent = styled.div`
 `
 
 export const Form = styled.form`
-    background: #ededed;
+    background: #1A1421;
     max-width: 400px;
-    height: auto;
+    height: 80vh;
     width: 100%;
     z-index: 1;
     display: grid;
     margin: 0 auto;
     padding: 80px 32px;
-    border-radius: 4px;
+    border-radius: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.9);
 
     @media screen and(max-width: 400px){
@@ -68,7 +69,7 @@ export const Form = styled.form`
 
 export const FormH1 = styled.h1`
     margin-bottom: 40px;
-    color: #111111;
+    color: #F1F1F1;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -77,7 +78,7 @@ export const FormH1 = styled.h1`
 export const FormLabel = styled.label`
     margin-bottom: 8px;
     font-size: 14px;
-    color: #111111;
+    color: #E5E5E5;
 `
 
 export const FormInput = styled.input`
@@ -91,7 +92,7 @@ export const FormButton = styled.button`
     background: #3333cc;
     padding: 16px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
@@ -100,6 +101,7 @@ export const FormButton = styled.button`
 export const Text = styled.span`
     text-align: center;
     margin-top: 24px;
-    color: #111111;
+    color: #797979;
     font-size: 14px;
+    cursor: pointer;
 `
